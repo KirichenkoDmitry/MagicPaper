@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "Biathlon.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "width" : 0.1014910941475827
+  }
+}

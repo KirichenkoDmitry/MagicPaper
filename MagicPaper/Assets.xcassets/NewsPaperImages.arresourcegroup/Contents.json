@@ -1,0 +1,17 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "Biathlon.arreferenceimage"
+    },
+    {
+      "filename" : "PresedentAcademy.arreferenceimage"
+    },
+    {
+      "filename" : "TheDiamondArm.arreferenceimage"
+    }
+  ]
+}
