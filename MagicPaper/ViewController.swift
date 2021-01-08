@@ -53,15 +53,17 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     // MARK: - ARSCNViewDelegate
     
     func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
-        let node = SCNNode()
+        
+        videoNode.pause()
         
         guard let imageAnchor = anchor as? ARImageAnchor else { return nil}
         guard let videoName = imageAnchor.referenceImage.name else { return nil}
         
+        let node = SCNNode()
+        
         videoNode = SKVideoNode(fileNamed: "\(videoName).mp4")
         videoNode.play()
         
-        // Display Spritekit element via SceneKit
         let videoScene = SKScene(size: CGSize(width: 480, height: 360))
         videoNode.position = CGPoint(x: videoScene.size.width / 2, y: videoScene.size.height / 2)
         videoNode.yScale = -1.0
