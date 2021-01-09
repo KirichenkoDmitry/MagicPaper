@@ -6,4 +6,6 @@ In this application were used features of ARKit 2 to turn an ordinary newspapers
 
 ## Overview
 
+Please click on the YouTube link below for a full video experience with sound.
+
 [![Watch the video](https://i.imgur.com/AgAKb2S.png)](https://www.youtube.com/watch?v=wde3uh4tf5M)
